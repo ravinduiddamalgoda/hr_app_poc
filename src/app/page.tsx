@@ -45,13 +45,13 @@ export default function HomePage() {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <span className="text-xl font-bold text-primary-700">HR Portal</span>
+                {/* <span className="text-xl font-bold text-primary-700">HR Portal</span> */}
               </div>
             </div>
             <div className="flex items-center">
               <Link 
                 href="/login"
-                className="ml-8 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                className="ml-8 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
               >
                 Sign in
               </Link>
@@ -75,7 +75,7 @@ export default function HomePage() {
               <div className="rounded-md shadow">
                 <Link
                   href="/login"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-primary-600 hover:bg-primary-700 md:py-4 md:text-lg md:px-10"
                 >
                   Get Started
                 </Link>
@@ -109,7 +109,7 @@ export default function HomePage() {
               <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-black">
                       <FiUsers className="h-6 w-6" />
                     </div>
                   </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
 
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-black">
                       <FiCalendar className="h-6 w-6" />
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
 
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-black">
                       <FiClipboard className="h-6 w-6" />
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export default function HomePage() {
 
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-black">
                       <FiFileText className="h-6 w-6" />
                     </div>
                   </div>
@@ -165,7 +165,7 @@ export default function HomePage() {
 
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-black">
                       <FiShield className="h-6 w-6" />
                     </div>
                   </div>
